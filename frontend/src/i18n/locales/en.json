@@ -1,0 +1,31 @@
+{
+  "app": {
+    "title": "Fish Farming Calculator"
+  },
+  "sidebar": {
+    "title": "Calculators"
+  },
+  "calculators": {
+    "pondVolume": "Pond Volume",
+    "fishStocking": "Fish Stocking",
+    "feedRequirement": "Feed Requirement",
+    "fcr": "FCR",
+    "pondLime": "Pond Lime",
+    "probiotic": "Probiotic Dosage",
+    "waterExchange": "Water Exchange",
+    "profitability": "Profitability"
+  },
+  "descriptions": {
+    "pondVolume": "Calculate the estimated water volume of your pond.",
+    "fishStocking": "Estimate fish stocking based on pond area and density.",
+    "feedRequirement": "Calculate estimated feed requirement.",
+    "fcr": "Calculate feed conversion ratio.",
+    "pondLime": "Estimate pond lime requirement.",
+    "probiotic": "Calculate product-specific probiotic dosage.",
+    "waterExchange": "Estimate water volume to replenish when appropriate.",
+    "profitability": "Estimate revenue, cost and profit."
+  },
+  "result": {
+    "pondVolume": "Pond Volume"
+  }
+}
