@@ -7545,3 +7545,651 @@ water */
     grid-template-columns: 1fr;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FCR css */
+
+
+
+/* =========================================
+   FCR CALCULATOR
+========================================= */
+
+.fcr-calculator {
+  width: 100%;
+}
+
+.fcr-header {
+  margin-bottom: 24px;
+}
+
+.fcr-eyebrow {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #087f5b;
+  margin-bottom: 6px;
+}
+
+.fcr-header h2 {
+  margin: 0 0 8px;
+  font-size: 28px;
+  font-weight: 800;
+  color: #12332d;
+}
+
+.fcr-header p {
+  margin: 0;
+  max-width: 700px;
+  line-height: 1.6;
+}
+
+
+/* INPUT CARD */
+
+.fcr-input-card {
+  background: #ffffff;
+  border: 1px solid #e4ece9;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(16, 80, 64, 0.06);
+}
+
+.fcr-section-title {
+  font-size: 18px;
+  font-weight: 800;
+  color: #173b33;
+  margin-bottom: 20px;
+}
+
+
+/* CALCULATE BUTTON */
+
+.fcr-calculate-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+.fcr-calculate-btn {
+  min-width: 250px;
+  min-height: 48px;
+  padding: 12px 26px;
+  border: none;
+  border-radius: 12px;
+  background: #087f5b;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 800;
+  cursor: pointer;
+  /* box-shadow: 0 8px 18px rgba(8, 127, 91, 0.22); */
+  background: linear-gradient(135deg, #40809d, #1294ce);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.fcr-calculate-btn:hover {
+  background: #066b4d;
+  transform: translateY(-2px);
+  /* box-shadow: 0 12px 24px rgba(8, 127, 91, 0.28); */
+     background: linear-gradient(135deg, #3b6b81, #0ea2e3);
+}
+
+.fcr-calculate-btn:active {
+  transform: translateY(0);
+}
+
+
+/* RESULTS */
+
+.fcr-results-title {
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+
+.fcr-results-title h3 {
+  margin: 0 0 4px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #173b33;
+}
+
+.fcr-results-title p {
+  margin: 0;
+  color: #6b7c76;
+  font-size: 14px;
+}
+
+
+/* RESULT BOX */
+
+.fcr-result-box {
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    #f7fbfa,
+    #edf8f4
+  );
+  border: 1px solid #d9ebe5;
+  border-radius: 16px;
+  padding: 22px;
+}
+
+.fcr-main-result {
+  background: linear-gradient(
+    135deg,
+    #eefaf5,
+    #e2f5ee
+  );
+  border-color: #c6e7db;
+}
+
+.fcr-result-label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #60736d;
+  margin-bottom: 8px;
+}
+
+.fcr-result-value {
+  font-size: 30px;
+  font-weight: 900;
+  color: #087f5b;
+}
+
+.fcr-result-value span {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+
+/* FORMULA */
+
+.fcr-formula-card {
+  margin-top: 24px;
+  padding: 24px;
+  border-radius: 16px;
+  background: #f4f9f7;
+  border: 1px solid #dcebe6;
+}
+
+.fcr-formula-title {
+  font-size: 17px;
+  font-weight: 800;
+  color: #173b33;
+  margin-bottom: 12px;
+}
+
+.fcr-formula-main {
+  font-size: 15px;
+  color: #536760;
+  margin-bottom: 12px;
+}
+
+.fcr-formula-calculation {
+  padding: 15px 18px;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid #dcebe6;
+  font-size: 16px;
+  color: #344a44;
+}
+
+.fcr-formula-calculation strong {
+  color: #087f5b;
+  font-size: 20px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 767px) {
+
+  .fcr-input-card {
+    padding: 18px;
+    border-radius: 14px;
+  }
+
+  .fcr-header h2 {
+    font-size: 24px;
+  }
+
+  .fcr-calculate-btn {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .fcr-result-value {
+    font-size: 26px;
+  }
+
+  .fcr-formula-card {
+    padding: 18px;
+  }
+
+  .fcr-formula-calculation {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FRC css */
+
+
+
+
+
+/* =========================================
+   FEED REQUIREMENT CALCULATOR
+========================================= */
+
+.feed-requirement-calculator {
+  width: 100%;
+}
+
+/* =========================================
+   HEADER
+========================================= */
+
+.feed-header {
+  margin-bottom: 24px;
+}
+
+.feed-eyebrow {
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #087f5b;
+  margin-bottom: 6px;
+}
+
+.feed-header h2 {
+  margin: 0 0 8px;
+  font-size: 28px;
+  font-weight: 800;
+  color: #12332d;
+}
+
+.feed-header p {
+  margin: 0;
+  max-width: 720px;
+  line-height: 1.6;
+}
+
+/* =========================================
+   INPUT CARD
+========================================= */
+
+.feed-input-card {
+  background: #ffffff;
+  border: 1px solid #e4ece9;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(16, 80, 64, 0.06);
+}
+
+.feed-section-title {
+  font-size: 18px;
+  font-weight: 800;
+  color: #173b33;
+  margin-bottom: 20px;
+}
+
+/* =========================================
+   CALCULATE BUTTON
+========================================= */
+
+.feed-calculate-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+.feed-calculate-btn {
+  min-width: 290px;
+  min-height: 48px;
+  padding: 12px 26px;
+
+  border: none;
+  border-radius: 12px;
+
+  /* background: #087f5b; */
+  background: linear-gradient(135deg, #40809d, #1294ce);
+  color: #ffffff;
+
+  font-size: 15px;
+  font-weight: 800;
+
+  cursor: pointer;
+
+  box-shadow: 0 8px 18px rgba(8, 127, 91, 0.22);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.feed-calculate-btn:hover {
+  /* background: #066b4d; */
+    background: linear-gradient(135deg, #366e87, #27a2d9);
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 12px 24px rgba(8, 127, 91, 0.28);
+}
+
+.feed-calculate-btn:active {
+  transform: translateY(0);
+}
+
+/* =========================================
+   RESULTS HEADER
+========================================= */
+
+.feed-results-title {
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+
+.feed-results-title h3 {
+  margin: 0 0 4px;
+
+  font-size: 20px;
+  font-weight: 800;
+
+  color: #173b33;
+}
+
+.feed-results-title p {
+  margin: 0;
+
+  color: #6b7c76;
+
+  font-size: 14px;
+}
+
+/* =========================================
+   RESULT BOX
+========================================= */
+
+.feed-result-box {
+  height: 100%;
+
+  background: linear-gradient(
+    135deg,
+    #f7fbfa,
+    #edf8f4
+  );
+
+  border: 1px solid #d9ebe5;
+
+  border-radius: 16px;
+
+  padding: 24px;
+}
+
+.feed-main-result {
+  background: linear-gradient(
+    135deg,
+    #eefaf5,
+    #e2f5ee
+  );
+
+  border-color: #c6e7db;
+
+  box-shadow:
+    0 8px 20px rgba(8, 127, 91, 0.08);
+}
+
+.feed-result-label {
+  font-size: 14px;
+  font-weight: 700;
+
+  color: #60736d;
+
+  margin-bottom: 8px;
+}
+
+.feed-result-value {
+  font-size: 30px;
+  font-weight: 900;
+
+  color: #087f5b;
+}
+
+.feed-result-value span {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* =========================================
+   FORMULA CARD
+========================================= */
+
+.feed-formula-card {
+  margin-top: 24px;
+
+  padding: 24px;
+
+  border-radius: 16px;
+
+  background: #f4f9f7;
+
+  border: 1px solid #dcebe6;
+}
+
+.feed-formula-title {
+  font-size: 17px;
+  font-weight: 800;
+
+  color: #173b33;
+
+  margin-bottom: 12px;
+}
+
+.feed-formula-main {
+  font-size: 15px;
+
+  color: #536760;
+
+  margin-bottom: 12px;
+}
+
+.feed-formula-calculation {
+  padding: 15px 18px;
+
+  border-radius: 10px;
+
+  background: #ffffff;
+
+  border: 1px solid #dcebe6;
+
+  font-size: 16px;
+
+  color: #344a44;
+
+  line-height: 1.7;
+}
+
+.feed-formula-calculation strong {
+  color: #087f5b;
+
+  font-size: 19px;
+}
+
+.feed-meal-calculation {
+  margin-top: 12px;
+
+  padding: 15px 18px;
+
+  border-radius: 10px;
+
+  background: #ffffff;
+
+  border: 1px solid #dcebe6;
+
+  font-size: 15px;
+
+  color: #536760;
+
+  line-height: 1.7;
+}
+
+.feed-meal-calculation span {
+  display: block;
+
+  margin-top: 5px;
+
+  color: #344a44;
+}
+
+.feed-meal-calculation strong {
+  color: #087f5b;
+
+  font-size: 17px;
+}
+
+/* =========================================
+   INFO CARD
+========================================= */
+
+.feed-info-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+
+  margin-top: 20px;
+
+  padding: 18px 20px;
+
+  border-radius: 14px;
+
+  background: #fffaf0;
+
+  border: 1px solid #f0dfb5;
+}
+
+.feed-info-icon {
+  flex-shrink: 0;
+
+  width: 34px;
+  height: 34px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #fff3cd;
+
+  font-size: 18px;
+}
+
+.feed-info-card strong {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: #624f19;
+
+  font-size: 15px;
+}
+
+.feed-info-card p {
+  margin: 0;
+
+  color: #6d613e;
+
+  font-size: 14px;
+
+  line-height: 1.6;
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+  .feed-input-card {
+    padding: 18px;
+
+    border-radius: 14px;
+  }
+
+  .feed-header h2 {
+    font-size: 24px;
+  }
+
+  .feed-calculate-btn {
+    width: 100%;
+
+    min-width: 0;
+  }
+
+  .feed-result-value {
+    font-size: 26px;
+  }
+
+  .feed-formula-card {
+    padding: 18px;
+  }
+
+  .feed-formula-calculation,
+  .feed-meal-calculation {
+    font-size: 14px;
+  }
+
+  .feed-info-card {
+    padding: 16px;
+  }
+}
