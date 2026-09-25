@@ -240,12 +240,6 @@
 
 
 
-
-
-
-
-
-
 import { useState } from "react";
 import InputField from "../components/InputField";
 import { formatCurrency, formatNumber } from "../utils/formatters";
@@ -378,7 +372,8 @@ function ProfitabilityCalculator() {
                 label="Expected Harvest"
                 value={harvestQuantity}
                 onChange={setHarvestQuantity}
-                suffix="kg"
+                unit="kg"
+                placeholder="e.g. 1000"
               />
             </div>
 
@@ -387,7 +382,8 @@ function ProfitabilityCalculator() {
                 label="Selling Price"
                 value={sellingPrice}
                 onChange={setSellingPrice}
-                suffix="₹/kg"
+                unit="₹/kg"
+                placeholder="e.g. 150"
               />
             </div>
 
@@ -418,7 +414,8 @@ function ProfitabilityCalculator() {
                 label="Seed / Fingerling Cost"
                 value={seedCost}
                 onChange={setSeedCost}
-                suffix="₹"
+                unit="₹"
+                placeholder="e.g. 10000"
               />
             </div>
 
@@ -427,7 +424,8 @@ function ProfitabilityCalculator() {
                 label="Feed Cost"
                 value={feedCost}
                 onChange={setFeedCost}
-                suffix="₹"
+                unit="₹"
+                placeholder="e.g. 25000"
               />
             </div>
 
@@ -436,7 +434,8 @@ function ProfitabilityCalculator() {
                 label="Lime Cost"
                 value={limeCost}
                 onChange={setLimeCost}
-                suffix="₹"
+                unit="₹"
+                placeholder="e.g. 3000"
               />
             </div>
 
@@ -445,7 +444,8 @@ function ProfitabilityCalculator() {
                 label="Probiotic Cost"
                 value={probioticCost}
                 onChange={setProbioticCost}
-                suffix="₹"
+                unit="₹"
+                placeholder="e.g. 5000"
               />
             </div>
 
@@ -454,7 +454,8 @@ function ProfitabilityCalculator() {
                 label="Labour Cost"
                 value={labourCost}
                 onChange={setLabourCost}
-                suffix="₹"
+                unit="₹"
+                placeholder="e.g. 8000"
               />
             </div>
 
@@ -463,7 +464,8 @@ function ProfitabilityCalculator() {
                 label="Electricity / Fuel Cost"
                 value={electricityCost}
                 onChange={setElectricityCost}
-                suffix="₹"
+                unit="₹"
+                placeholder="e.g. 4000"
               />
             </div>
 
@@ -472,7 +474,8 @@ function ProfitabilityCalculator() {
                 label="Other Cost"
                 value={otherCost}
                 onChange={setOtherCost}
-                suffix="₹"
+                unit="₹"
+                placeholder="e.g. 2000"
               />
             </div>
 
@@ -934,3 +937,6 @@ function ProfitabilityCalculator() {
 }
 
 export default ProfitabilityCalculator;
+
+
+
