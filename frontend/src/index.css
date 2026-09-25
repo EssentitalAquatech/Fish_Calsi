@@ -759,7 +759,8 @@ a {
 .form-label {
   display: block;
 
-  margin-bottom: 7px;
+  margin-bottom: 5px;
+  margin-top: 15px;
 
   font-size: 12px;
 
@@ -1043,6 +1044,8 @@ a {
   justify-content: center;
 
   gap: 7px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .result-box small {
@@ -3413,7 +3416,8 @@ input filed */
   display: flex;
   align-items: center;
   gap: 5px;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
+  margin-top: 15px;
   color: #344b42;
   font-family: "Inter", sans-serif;
   font-size: 11px;
@@ -4092,7 +4096,7 @@ input filed */
   align-items: center;
   gap: 5px;
 
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 
   color: #344e5c;
 
@@ -4100,6 +4104,7 @@ input filed */
 
   font-size: 11px;
   font-weight: 800;
+  margin-top: 15px;
 }
 
 .pond-required {
@@ -5643,6 +5648,7 @@ FCR */
   color: #334155;
   font-size: 14px;
   font-weight: 700;
+  margin-top: 15px;
 }
 
 .pond-lime-input-wrapper {
@@ -7199,6 +7205,7 @@ water */
   font-size: 14px;
   font-weight: 700;
   color: #334155;
+  margin-top: 15px;
 }
 
 .water-exchange-input {
